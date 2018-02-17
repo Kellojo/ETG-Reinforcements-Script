@@ -25,12 +25,12 @@ Place this in a trigger or script to call in reinforcements:
 
 ## "Clean" example
 
-    ```
+```
     nul = ['spawn','drop',west,10,'B_APC_Wheeled_01_cannon_F',100,'B_Heli_Transport_03_F','SmokeShell',''] execVM 'ETG_ReinforcementsScript.sqf;
-    ```
+```
 
 ## Explanation
-
+```
 nul = 
 ["marker1",								//put in a marker name that should be near the spawning zone of the vehicles - does not have to be on/over land
 "marker2",								//put in a marker name that should be near the drop zone
@@ -42,4 +42,4 @@ west,									//select what side the dropped units will be from - can be west or
 "SmokeShell",								//select what smokeshell or chemlight should be attached to the cargo
 "empty"]								//put in "empty" if you want the cargo vehicle to be empty/without a crew - if you want an ammobox put in empty...
 execVM "ETG_ReinforcementsScript.sqf";
-*/
+```
