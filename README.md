@@ -15,15 +15,16 @@ This script works best with a mod that implements some cargo planes as it looks 
 Then you can run this script by calling it in a trigger, in a script or with an action added to the player or any other object.
 Examples:
 
-2.1 Adds a scroll action that can be uses to call in reinforcements:
-    ```
-    player AddAction ["<t color=""#7CFC00"">" +"-Call in reinforcements (Bluefor CH67 - Marshall)-", "nul =     ['spawn','drop',west,10,'B_APC_Wheeled_01_cannon_F',100,'B_Heli_Transport_03_F','SmokeShell',''] execVM 'ETG_ReinforcementsScript.sqf';"];
-    ```
-2.2 Place this in a trigger or script to call in reinforcements:
+    2.1 Adds a scroll action that can be uses to call in reinforcements:
+        ```
+        player AddAction ["<t color=""#7CFC00"">" +"-Call in reinforcements (Bluefor CH67 - Marshall)-", "nul =     ['spawn','drop',west,10,'B_APC_Wheeled_01_cannon_F',100,'B_Heli_Transport_03_F','SmokeShell',''] execVM 'ETG_ReinforcementsScript.sqf';"];
+        ```
 
-    ```
-    nul = ['spawn','drop',west,10,'B_APC_Wheeled_01_cannon_F',100,'B_Heli_Transport_03_F','SmokeShell',''] execVM 'ETG_ReinforcementsScript.sqf';
-    ```
+    2.2 Place this in a trigger or script to call in reinforcements:
+
+        ```
+        nul = ['spawn','drop',west,10,'B_APC_Wheeled_01_cannon_F',100,'B_Heli_Transport_03_F','SmokeShell',''] execVM 'ETG_ReinforcementsScript.sqf';
+        ```
 
 ## "Clean" example
 
