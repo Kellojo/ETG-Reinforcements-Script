@@ -16,6 +16,7 @@ Then you can run this script by calling it in a trigger, in a script or with an 
 Examples:
 
     2.1 Adds a scroll action that can be uses to call in reinforcements:
+    
         ```
         player AddAction ["<t color=""#7CFC00"">" +"-Call in reinforcements (Bluefor CH67 - Marshall)-", "nul =     ['spawn','drop',west,10,'B_APC_Wheeled_01_cannon_F',100,'B_Heli_Transport_03_F','SmokeShell',''] execVM 'ETG_ReinforcementsScript.sqf';"];
         ```
